@@ -1,0 +1,658 @@
+@import url("https://fonts.google.com/Plus Jakarta Sans Display:wght@500;700;800&display=swap");
+
+.container {
+  width: 100%;
+  background:  linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+}
+
+header {
+  width: 95%;
+  height: 48px;
+  margin-top: 5%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-btn {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #ffffff;
+  background: #13183f;
+  border-radius: 28px;
+  padding: 8px 15px 8px 15px;
+}
+
+h1 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  color: #13183f;
+  width: 95%;
+  /*margin-top: 10%;*/
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.first-p {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869a;
+  width: 95%;
+  /*margin-top: 10%;*/
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.budget-btn {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 167px;
+  height: 56px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #ffffff;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 31.5px;
+  margin-left: 2.5%;
+}
+
+.image {
+  height: 20rem;
+  background-image: url("assets/image-hero-mobile.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 1.5rem;
+  
+}
+
+.grid-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  height: 1695px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.h2-div {
+  width: 95%;
+  height: 120px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 10px;
+}
+
+h2 {
+  width: 80%;
+  height: 64px;
+  margin-top: 5.5%;
+  margin-left: 10%;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.animation-div {
+  width: 95%;
+  height: 259px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.animation-icon {
+  width: 56px;
+  height: 56px;
+  position: relative;
+  top: -25px;
+  left: 20px;
+  background-image: url("assets/icon-animation.svg");
+  background-repeat: no-repeat;
+}
+
+h3 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #13183f;
+  margin-left: 20px;
+  margin-top: -1rem;
+}
+
+.animation-p {
+  margin-left: 20px;
+  margin-top: rem;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869a;
+}
+
+.animation-btn {
+  text-decoration: none;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f74780;
+  margin-left: 20px;
+}
+
+.design-div {
+  width: 95%;
+  height: 259px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.design-icon {
+  position: relative;
+  top: -25px;
+  left: 20px;
+  width: 56px;
+  height: 56px;
+  background-image: url("assets/icon-design.svg");
+  background-repeat: no-repeat;
+}
+
+.design-heading {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #13183f;
+  margin-left: 20px;
+  margin-top: -1rem;
+}
+
+.design-p {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869a;
+  margin-left: 20px;
+}
+
+.design-btn {
+  text-decoration: none;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f74780;
+  margin-left: 20px;
+}
+
+.photography-div {
+  width: 95%;
+  height: 259px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.photography-icon {
+  width: 56px;
+  height: 56px;
+  position: relative;
+  top: -25px;
+  left: 20px;
+  background-image: url("assets/icon-photography.svg");
+  background-repeat: no-repeat;
+}
+
+.photography-heading {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #13183f;
+  margin-top: -1rem;
+  margin-left: 20px;
+}
+
+.photography-p {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869a;
+  margin-left: 20px;
+  margin-top: 1rem;
+}
+
+.photography-btn {
+  text-decoration: none;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f74780;
+  margin-left: 20px;
+}
+
+.crypto-div {
+  width: 95%;
+  height: 259px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.crypto-icon {
+  width: 56px;
+  height: 56px;
+  position: relative;
+  top: -25px;
+  left: 25px;
+  background-image: url("assets/icon-crypto.svg");
+  background-repeat: no-repeat;
+}
+
+.crypto-headfing {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #13183f;
+  margin-top: -1rem;
+}
+.crypto-p {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869a;
+  margin-left: 20px;
+  margin-top: 1rem;
+}
+
+.crypto-btn {
+  text-decoration: none;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f74780;
+  margin-left: 20px;
+}
+
+.business-div {
+  width: 95%;
+  height: 259px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.business-icon {
+  width: 56px;
+  height: 56px;
+  position: relative;
+  top: -25px;
+  left: 20px;
+  background-image: url("assets/icon-business.svg");
+  background-repeat: no-repeat;
+}
+
+.business-heading {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #13183f;
+  margin-left: 20px;
+  margin-top: -1rem;
+}
+
+.business-p {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869a;
+  margin-top: 1rem;
+  margin-left: 20px;
+}
+
+.business-btn {
+  display: block;
+  text-decoration: none;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f74780;
+  width: 104px;
+  height: 28px;
+  margin-left: 20px;
+}
+
+footer {
+  margin-top: 20%;
+  width: 100%;
+  height: 120px;
+  background-color: #13183f;
+}
+
+.footer-div {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  left: 2.5%;
+  top: 30%;
+}
+
+.bottom-btn {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #ffffff;
+  background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+  border-radius: 28px;
+  padding: 8px 15px 8px 15px;
+}
+
+.header-btn:hover {
+  background: #666ca3;
+  cursor: pointer;
+}
+
+.budget-btn:hover {
+  background: #ffa7c3;
+  cursor: pointer;
+}
+
+.animation-btn:hover {
+  cursor: pointer;
+  color: #ffa7c3;
+}
+
+.design-btn:hover {
+  cursor: pointer;
+  color: #ffa7c3;
+}
+
+.photography-btn:hover {
+  cursor: pointer;
+  color: #ffa7c3;
+}
+
+.crypto-btn:hover {
+  cursor: pointer;
+  color: #ffa7c3;
+}
+
+.business-btn:hover {
+  cursor: pointer;
+  color: #ffa7c3;
+}
+
+.bottom-btn:hover {
+  cursor: pointer;
+  background: #f02aa6;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url("assets/image-hero-tablet.png");
+    background-position: 25rem -7rem;
+    background-repeat: no-repeat;
+    }
+    .image {
+      display: none;
+    }
+
+    .grid-div {
+      margin-top: 30rem;
+    }
+
+    header {
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 20px;
+    }
+
+    h1 {
+      font-family: "Plus Jakarta Sans";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 50px;
+      width: 326px;
+      height: 101px;
+      margin-left: 39px;
+      margin-top: 99px;
+    }
+
+    .first-p {
+      width: 398px;
+      height: 78px;
+      margin-left: 39px;
+    }
+
+    .budget-btn {
+      margin-left: 35px;
+    }
+
+    .grid-div {
+      margin-left: 2.5%;
+      width: 95%;
+      height: 60rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-left: 10px;
+      margin-top: 20rem;
+    }
+
+    .h2-div {
+      height: 259px;
+      gap: 10px;
+    }
+}
+
+@media (min-width: 912px) {
+
+  body {
+    background-image: url("assets/image-hero-tablet.png");
+    background-position: 33rem -7rem;
+    background-repeat: no-repeat;
+    }
+
+  header {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+  }
+
+  h1 {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    width: 326px;
+    height: 101px;
+    margin-left: 39px;
+    margin-top: 99px;
+  }
+
+  .first-p {
+    width: 398px;
+    height: 78px;
+    margin-left: 39px;
+  }
+
+  .budget-btn {
+    margin-left: 35px;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .grid-div {
+    margin-left: 2.5%;
+    width: 95%;
+    height: 60rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10px;
+    margin-top: 20rem;
+  }
+
+  .h2-div {
+    height: 259px;
+    gap: 10px;
+  }
+
+  footer {
+    margin-top: 100px;
+    width: 100%;
+    height: 120px;
+  }
+}
+
+@media (min-width: 992px) {
+
+  body {
+    background-image: url("assets/image-hero-desktop.png");
+    background-position: 33rem -10%;
+    background-size: 70% 45%;
+    background-repeat: no-repeat;
+  }
+
+  header {
+    width: 85%;
+    margin-left: 5%;
+  }
+
+  h1 {
+    margin-left: 5%;
+   
+  }
+
+  .first-p {
+    margin-left: 5%;
+   
+  }
+
+  .budget-btn {
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+  .grid-div {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 40rem;
+    margin-top: 20%;
+    
+  }
+
+  .h2-div {
+    height: 80%;
+  }
+
+  footer {
+    margin-top: 10%;
+    width: 100%;
+    
+  }
+}
+
+@media (min-width: 1280px){
+  body {
+    background-image: url("assets/image-hero-desktop.png");
+    background-position: 46rem -10%;
+    background-size: 60% 45%;
+    background-repeat: no-repeat;
+  }
+
+  header {
+    width: 85%;
+    margin-left: 5%;
+  }
+
+  h1 {
+    margin-left: 5%;
+   
+  }
+
+  .first-p {
+    margin-left: 5%;
+   
+  }
+
+  .budget-btn {
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .grid-div {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 40rem;
+    margin-top: 20%;
+    
+  }
+
+  .h2-div {
+    height: 80%;
+  }
+
+  footer {
+    margin-top: 10%;
+    width: 100%;
+    
+  }
+}
+
+
