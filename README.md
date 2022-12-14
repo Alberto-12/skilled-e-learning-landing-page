@@ -33,7 +33,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [ solution URL](http://127.0.0.1:5500/)
 - Live Site URL: [live site URL](https://alberto-12.github.io/skilled-e-learning-landing-page/)
 
 ## My process
