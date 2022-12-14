@@ -1,6 +1,6 @@
 # Frontend Mentor - Skilled e-learning landing page solution
 
-This is a solution to the [Skilled e-learning landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Skilled e-learning landing page challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/skilledelearninglandingpage-Cu3JUYrm5z). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -29,12 +29,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/Screenshot%202022-12-13%20at%2010-46-52%20Frontend%20Mentor%20Skilled%20e-learning%20landing%20page.png)
+![](./assets/Screenshot%202022-12-14%20at%2015-35-37%20Frontend%20Mentor%20Skilled%20e-learning%20landing%20page.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [ solution URL](http://127.0.0.1:5500/)
+- Live Site URL: [live site URL](https://alberto-12.github.io/skilled-e-learning-landing-page/)
 
 ## My process
 
@@ -48,11 +48,13 @@ Users should be able to:
 
 ### What I learned
 
-In this challenge I learned how to work with flexbox grid and background images.
+The main purpose of this challenge was to test the fundamentals of HTML and CSS to create an optimal layout depending on user's device's screen size. I learned how to work with background images, using responsive unites and CSS grid.
+
+here's a snippet of a CSS code with grid which I'm proud of:
 
 ```css
-.proud-of-this-css {
-   margin-left: 2.5%;
+.grid-div {
+      margin-left: 2.5%;
       width: 95%;
       height: 60rem;
       display: grid;
@@ -60,7 +62,6 @@ In this challenge I learned how to work with flexbox grid and background images.
       padding-left: 10px;
       margin-top: 20rem;
     }
-}
 ```
 
 ### Continued development
@@ -73,8 +74,8 @@ I'm looking forward to improve all the techniques used in this project.
 
 ## Author
 
-- Frontend Mentor - [@Alberto-12](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Alberto-12](https://www.frontendmentor.io/profile/Alberto-12)
 
 ## Acknowledgments
 
-I'm very thankfull for my mentor Treasure Kabareebe that guided me through the process.
+I'm very thankfull for my mentor [Treasure Kabareebe](https://github.com/trekab) that guided me through the process.
